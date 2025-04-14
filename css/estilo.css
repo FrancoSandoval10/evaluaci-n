@@ -1,0 +1,34 @@
+.centro {
+    text-align: center;
+    font-size: 25px;
+}
+#card {
+    margin: 30px;
+}
+#txt_nombre {
+    width: 569px;
+}
+
+#txt_nombre_help {
+    margin-left: 67px;
+}
+
+#txt_direccion {
+    width: 562px;
+}
+
+#txt_direccion_help {
+    margin-left: 74px;
+}
+
+#txt_entrega {
+    width: 574px;
+}
+
+#txt_entrega_help {
+    margin-left: 62px;
+}
+
+form {
+    background-color: lightgray;
+}

@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <title>
+            lecheraucanias
+        </title>
+        <link rel="stylesheet" href="css/estilo.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class = "centro">
+            <h1>lecheraucanias</h1>
+            <img src="img/vaquita.png" width="120" height="120">
+        </div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Pagina Principal</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contactanos</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Nuestros Productos
+                    </a>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/vacaraucaria.jpg" class="d-block w-100" alt="imagen1" width="30" height="500">
+              </div>
+              <div class="carousel-item">
+                <img src="img/quesito.jpg" class="d-block w-100" alt="imagen2" width="30" height="500">
+              </div>
+              <div class="carousel-item">
+                <img src="img/leche.avif" class="d-block w-100" alt="imagen3" width="30" height="500">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+          <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <div id="card" class="custom-card" style="width: 18rem;">
+                        <img src="img/araucania.webp" class="card-img-top" alt="imagen4">
+                        <div class="card-body">
+                            <p class="card-text">
+                                En Lecheraucanias nos preocupamos de que todos los habitantes de la IX región de Chile puedan tener la mejor leche que tiene para ofrecer la Araucanía.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h3>¿Quiere que su hogar sea parte del sistema de reparto de leche?, ¡ingrese sus datos ahora!</h3>
+                    <form>
+                        <div class="mb-3">
+                            <label for="txt_nombre">Nombre:</label>
+                            <input type="text" id="txt_nombre" aria-describedby="txt_nombre_help">
+                            <div id="txt_nombre_help" class="form-text">Por favor ingrese su nombre completo</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="txt_direccion">Direccion:</label>
+                            <input type="text" id="txt_direccion" aria-describedby="txt_direccion_help">
+                            <div id="txt_direccion_help" class="form-text">Este servicio solo esta dsponible para gente de la IX region</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="txt_entrega">Entrega:</label>
+                            <input type="text" id="txt_entrega" aria-describedby="txt_entrega_help">
+                            <div id="txt_entrega_help" class="form-text">Desciba en que horarios esta en su hogar o en su defecto en que lugar quiere que se deje la entrega</div>
+                        </div>
+                        <div class="mb-3">
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </div>                        
+                    </form>
+                </div>
+          </div>
+          </div>
+    </body>
+</html>
