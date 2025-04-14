@@ -7,7 +7,12 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
-    </head>
+        <style>
+          body {
+            background-color: #86b63b;
+          }
+        </style>
+      </head>
     <body>
         <div class = "centro">
             <h1>lecheraucanias</h1>
@@ -43,12 +48,24 @@
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src="img/vacaraucaria.jpg" class="d-block w-100" alt="imagen1" width="30" height="500">
+                <div class="carousel-caption top-caption d-none d-md-block">
+                  <h5>Leche natural de vacas libres y felices</h5>
+                  <p>Nuestra leche se extrae de vacas muy bien cuidadas que tienen un gran espacio para estar libres entre araucarias</p>
+                </div>
               </div>
               <div class="carousel-item">
                 <img src="img/quesito.jpg" class="d-block w-100" alt="imagen2" width="30" height="500">
+                <div class="carousel-caption top-caption d-none d-md-block">
+                  <h5>un queso delicioso</h5>
+                  <p>el queso mas sabroso, cremoso, blando y delicioso de toda la araucania, chile y el mundo</p>
+                </div>
               </div>
               <div class="carousel-item">
                 <img src="img/leche.avif" class="d-block w-100" alt="imagen3" width="30" height="500">
+                <div class="carousel-caption top-caption d-none d-md-block">
+                  <h5>La mejor leche</h5>
+                  <p>Ya sea cremosa, semi descremada o descremada, siempre sera la mejor leche natural que probaras</p>
+                </div>
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -66,14 +83,16 @@
                     <div id="card" class="custom-card" style="width: 18rem;">
                         <img src="img/araucania.webp" class="card-img-top" alt="imagen4">
                         <div class="card-body">
+                            <h5 class = "card-title">Quienes somos</h5>
                             <p class="card-text">
-                                En Lecheraucanias nos preocupamos de que todos los habitantes de la IX región de Chile puedan tener la mejor leche que tiene para ofrecer la Araucanía.
+                                Lecheraucanias es una empresa dedicada a los productos lacteos, Extraemos de forma artesanal la leche más deliciosa y natural de la región, directamente de nuestras vacas que despues es envasada de forma natural y nos esforzamos en que todos los habitantes de la IX region tenga la leche y los quesos mas delicosas de chile.
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <h3>¿Quiere que su hogar sea parte del sistema de reparto de leche?, ¡ingrese sus datos ahora!</h3>
+                    <h8>Aviso: Esta leche, es la leche 100% natural extraida de la vaca, para un tipo en especifico informe en entrega</h8>
                     <form>
                         <div class="mb-3">
                             <label for="txt_nombre">Nombre:</label>
@@ -97,5 +116,42 @@
                 </div>
           </div>
           </div>
+          <div class="container-fluid mt-5">
+            <div class="row">
+              <div class="col-12 mb-4">
+                <div class="card">
+                  <div class="card-body" id = "historia">
+                    <h5 class="card-title">Nuestra Historia</h5>
+                    <p class="card-text">
+                      Lecheraucanias nació en el corazón de la Araucanía, donde las tradiciones del campo se mezclan con el amor por la tierra y los animales.
+                      Desde nuestros inicios, nos propusimos llevar a cada hogar productos lácteos frescos, naturales y llenos de sabor.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 mb-4">
+                <div class="card">
+                  <div class="card-body" id = "origenes">
+                    <h5 class="card-title">Orígenes humildes</h5>
+                    <p class="card-text">
+                      Comenzamos con unas pocas vacas en un pequeño predio familiar. Con esfuerzo y cariño, fuimos creciendo sin perder la esencia
+                      de lo artesanal y el compromiso con la calidad. Hoy seguimos trabajando como el primer día, con respeto por la naturaleza
+                      y por nuestros consumidores.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 mb-4">
+                <div class="card">
+                  <div class="card-body" id = "compromiso">
+                    <h5 class="card-title">Compromiso con la comunidad</h5>
+                    <p class="card-text">
+                      Más que una empresa, somos una familia que valora la confianza de quienes nos eligen. Apostamos por el desarrollo local y por una alimentación saludable.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>    
     </body>
 </html>

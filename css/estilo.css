@@ -32,3 +32,29 @@
 form {
     background-color: lightgray;
 }
+
+.carousel-caption.top-caption{
+    top: 0;
+    bottom: 0;
+    color:black;
+}
+
+#historia {
+    background-color: #FFFFC5;
+}
+
+#origenes {
+    background-color: burlywood;
+}
+
+#compromiso {
+    background-color: #ADD8E6;
+}
+
+html, body {
+    background-color: greenyellow;
+}
+
+body {
+    background-color: greenyellow;
+}
